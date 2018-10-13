@@ -1,0 +1,27 @@
+{
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\bash.exe", // git bach的磁盘路径
+    "liveServer.settings.donotShowInfoMsg": true,
+    "fileheader.Author": "liucz",
+    "fileheader.LastModifiedBy": "liucz",
+    "workbench.activityBar.visible": true,
+    "files.autoSave": "off",
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "window.menuBarVisibility": "default",
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.visible": true,
+    "editor.formatOnSave": true, // 保存的时候格式化
+    "[vue]": { // vue文件保存的时候格式化
+        "editor.formatOnSave": true
+    },
+    "prettier.semi": false, // 禁用结尾分号
+    "prettier.singleQuote": true, // 采用单引号
+    "vetur.format.defaultFormatter.html": "js-beautify-html", // 格式化 vue 项目中的 html 代码
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+            "wrap_attributes": "force-aligned"
+        }
+    }
+}
